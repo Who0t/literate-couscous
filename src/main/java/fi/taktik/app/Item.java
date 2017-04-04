@@ -101,5 +101,7 @@ public class Item {
         platforms.add(platform);
     }
 
-    
+    public double getDiscountPercentage() {
+        return 1-(discountPrice/price);
+    }
 }
