@@ -1,6 +1,8 @@
 package fi.taktik.app;
 
 
+import java.util.List;
+
 public class Item {
 
     private int id;
@@ -11,7 +13,6 @@ public class Item {
     private double discountPrice;
     private String publisher;
     private String developer;
-    private String[] platforms;
+    private List<String> platforms;
 
-    
 }
