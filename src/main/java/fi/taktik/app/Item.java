@@ -1,6 +1,7 @@
 package fi.taktik.app;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Item {
@@ -85,5 +86,13 @@ public class Item {
 
     public void setPlatforms(List<String> platforms) {
         this.platforms = platforms;
+    }
+
+    public Item() {
+        platforms = new ArrayList<String>();
+    }
+
+    public Item(String name) {
+        this.name = name;
     }
 }
