@@ -93,6 +93,13 @@ public class Item {
     }
 
     public Item(String name) {
+        platforms = new ArrayList<String>();
         this.name = name;
     }
+
+    public void addPlatform(String platform) {
+        platforms.add(platform);
+    }
+
+    
 }
