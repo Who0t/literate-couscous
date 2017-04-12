@@ -21,7 +21,7 @@ public class Item {
     private double discountPrice;
     private String publisher;
     private String developer;
-    private List<String> platforms;
+    //private List<String> platforms;
 
     public int getId() {
         return id;
@@ -87,23 +87,23 @@ public class Item {
         this.developer = developer;
     }
 
-    public List<String> getPlatforms() {
+ /*   public List<String> getPlatforms() {
         return platforms;
     }
 
     public void setPlatforms(List<String> platforms) {
         this.platforms = platforms;
     }
-
+*/
     public Item() {
-        platforms = new ArrayList<String>();
+        //platforms = new ArrayList<String>();
     }
 
     public Item(String name) {
-        platforms = new ArrayList<String>();
+        //platforms = new ArrayList<String>();
         this.name = name;
     }
-
+/*
     public void addPlatform(String platform) {
         platforms.add(platform);
     }
@@ -111,4 +111,5 @@ public class Item {
     public double getDiscountPercentage() {
         return 1-(discountPrice/price);
     }
+*/
 }
