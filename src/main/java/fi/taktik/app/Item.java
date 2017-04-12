@@ -13,7 +13,7 @@ public class Item {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
     private String genre;
     private String name;
     private String description;
@@ -23,11 +23,11 @@ public class Item {
     private String developer;
     private List<String> platforms;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -91,7 +91,7 @@ public class Item {
         return platforms;
     }
 
-    public void setPlatforms(List<String> platforms) {
+    public void setPlatforms(ArrayList<String> platforms) {
         this.platforms = platforms;
     }
 
@@ -110,5 +110,17 @@ public class Item {
 
     public double getDiscountPercentage() {
         return 1-(discountPrice/price);
+    }
+
+    public void updateItem(Item item) {
+
+        this.genre = item.getGenre();
+        this.name = item.getName();
+        this.description = item.getDescription();
+        this.price = item.getPrice();
+        this.discountPrice = item.getDiscountPrice();
+        this.publisher = item.getPublisher();
+        this.developer = item.getDeveloper();
+        this.platforms = item.getPlatforms();
     }
 }
