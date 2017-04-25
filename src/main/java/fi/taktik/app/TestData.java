@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by Juuso Ahtiainen on 12/04/2017.
- *
+ * <p>
  * Populates the database with sample data and assist functions to handle this data.
  */
 @RestController
@@ -15,6 +15,9 @@ public class TestData {
     @Autowired
     ItemRepository database;
 
+    /**
+     * Creates 10 test instances of Items with only name value and saves them on database.
+     */
     @RequestMapping(value = "/addAll", method = RequestMethod.GET)
     public void addAll() {
 
@@ -39,5 +42,16 @@ public class TestData {
         database.save(test7);
         database.save(test8);
         database.save(test9);
+    }
+
+    /**
+     * Finds an item from database based on given ID and returns it.
+     * @param id Id to look item with.
+     * @return Found item from db.
+     */
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public Item getOne(@PathVariable("id") long id) {
+
+        return database.findOne(id);
     }
 }
