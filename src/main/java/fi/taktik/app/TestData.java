@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by Juuso Ahtiainen on 12/04/2017.
- * <p>
+ * 
  * Populates the database with sample data and assist functions to handle this data.
  */
 @RestController
