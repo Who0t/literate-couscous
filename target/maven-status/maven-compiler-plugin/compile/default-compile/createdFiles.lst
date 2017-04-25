@@ -1,4 +1,5 @@
 fi\taktik\app\ItemRepository.class
+fi\taktik\app\Controller.class
 fi\taktik\app\Item.class
 fi\taktik\app\UpdateItem.class
 fi\taktik\app\Application.class

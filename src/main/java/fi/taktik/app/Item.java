@@ -1,6 +1,5 @@
 package fi.taktik.app;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -86,20 +85,16 @@ public class Item {
     public void setDeveloper(String developer) {
         this.developer = developer;
     }
-<<<<<<< HEAD
 
- /*   public List<String> getPlatforms() {
-=======
-/*
-    public List<String> getPlatforms() {
->>>>>>> Adding_Items
-        return platforms;
-    }
+    /*
+        public List<String> getPlatforms() {
+            return platforms;
+        }
 
-    public void setPlatforms(List<String> platforms) {
-        this.platforms = platforms;
-    }
-*/
+        public void setPlatforms(List<String> platforms) {
+            this.platforms = platforms;
+        }
+    */
     public Item() {
         //platforms = new ArrayList<String>();
     }
@@ -117,8 +112,7 @@ public class Item {
         return 1-(discountPrice/price);
     }
 */
-<<<<<<< HEAD
-=======
+
     public void copyItem(Item item) {
 
         this.genre = item.getGenre();
@@ -130,5 +124,4 @@ public class Item {
         this.developer = item.getDeveloper();
         //this.platforms = item.getPlatforms();
     }
->>>>>>> Adding_Items
 }
