@@ -10,5 +10,6 @@ public class Application {
         System.out.println("GET: http://localhost:8080/items");
         System.out.println("GET: http://localhost:8080/items/{id}");
         System.out.println("POST: http://localhost:8080/items");
+        System.out.println("DELETE: http://localhost:8080/items/{id}");
     }
 }
