@@ -21,7 +21,7 @@ public class Controller {
     }
 
     @RequestMapping(value = "/items/{itemId}", method = RequestMethod.GET)
-    public Item getItems(@PathVariable int itemId) {
+    public Item getItems(@PathVariable long itemId) {
         return database.findOne(itemId);
     }
 }
