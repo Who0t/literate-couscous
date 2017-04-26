@@ -43,4 +43,14 @@ public class TestData {
         database.save(test8);
         database.save(test9);
     }
+
+    /**
+     * Test URI for authenticating. Secured with US and PW
+     *
+     * @return simple string to indicate success.
+     */
+    @RequestMapping(value ="/testLogin")
+    public String testLogn() {
+        return "Login Succ";
+    }
 }
