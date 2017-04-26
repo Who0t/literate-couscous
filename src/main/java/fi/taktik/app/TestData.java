@@ -43,15 +43,4 @@ public class TestData {
         database.save(test8);
         database.save(test9);
     }
-
-    /**
-     * Finds an item from database based on given ID and returns it.
-     * @param id Id to look item with.
-     * @return Found item from db.
-     */
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Item getOne(@PathVariable("id") long id) {
-
-        return database.findOne(id);
-    }
 }
