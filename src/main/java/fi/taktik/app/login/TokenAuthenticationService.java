@@ -12,7 +12,7 @@ import static java.util.Collections.emptyList;
 /**
  * Authenticates the given token on http Requests.
  *
- * Created by Juuso on 26/04/2017.
+ * Created by Juuso Ahtiainen on 26/04/2017.
  */
 public class TokenAuthenticationService {
     static final long EXPIRATIONTIME = 864000000;

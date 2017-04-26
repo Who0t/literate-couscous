@@ -27,6 +27,16 @@ public class JWTLoginFilter extends AbstractAuthenticationProcessingFilter{
         setAuthenticationManager(authManager);
     }
 
+    /**
+     * Snatches the POST request from login page and tries to process it.
+     *
+     * @param req http request
+     * @param res http response
+     * @return either success or failure on authenticating.
+     * @throws AuthenticationException Exception occurring while authenticating makes its magic.
+     * @throws IOException Exception occurring while authenticating makes its magic.
+     * @throws ServletException Exception occurring while authenticating makes its magic.
+     */
     @Override
     public Authentication attemptAuthentication(
             HttpServletRequest req,

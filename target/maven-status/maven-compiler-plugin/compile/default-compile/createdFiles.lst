@@ -1,11 +1,13 @@
-fi\taktik\app\ItemRepository.class
-fi\taktik\app\Item.class
 fi\taktik\app\login\WebSecurityConfig.class
-fi\taktik\app\UpdateItem.class
 fi\taktik\app\TestData.class
+fi\taktik\app\login\AccountCredentialsRepository.class
 fi\taktik\app\login\AccountCredentials.class
 fi\taktik\app\login\JWTLoginFilter.class
-fi\taktik\app\Controller.class
+fi\taktik\app\login\AccountHandling.class
 fi\taktik\app\login\JWTAuthenticationFilter.class
 fi\taktik\app\Application.class
 fi\taktik\app\login\TokenAuthenticationService.class
+fi\taktik\app\ItemRepository.class
+fi\taktik\app\Item.class
+fi\taktik\app\UpdateItem.class
+fi\taktik\app\Controller.class

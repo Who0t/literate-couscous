@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * Handles filtering on authenticating.
  *
- * Alot background magic happening here which JWT and oAuth does.
+ * A lot background magic happening here.
  *
  * Created by Juuso Ahtiainen on 26/04/2017.
  */

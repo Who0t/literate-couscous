@@ -1,11 +1,12 @@
 D:\Projects\tiktak\src\main\java\fi\taktik\app\Controller.java
-D:\Projects\tiktak\src\main\java\fi\taktik\app\TokenAuthenticationService.java
+D:\Projects\tiktak\src\main\java\fi\taktik\app\login\JWTLoginFilter.java
 D:\Projects\tiktak\src\main\java\fi\taktik\app\Item.java
-D:\Projects\tiktak\src\main\java\fi\taktik\app\AccountCredentials.java
 D:\Projects\tiktak\src\main\java\fi\taktik\app\UpdateItem.java
+D:\Projects\tiktak\src\main\java\fi\taktik\app\login\TokenAuthenticationService.java
 D:\Projects\tiktak\src\main\java\fi\taktik\app\TestData.java
 D:\Projects\tiktak\src\main\java\fi\taktik\app\Application.java
-D:\Projects\tiktak\src\main\java\fi\taktik\app\JWTAuthenticationFilter.java
-D:\Projects\tiktak\src\main\java\fi\taktik\app\JWTLoginFilter.java
+D:\Projects\tiktak\src\main\java\fi\taktik\app\login\JWTAuthenticationFilter.java
+D:\Projects\tiktak\src\main\java\fi\taktik\app\login\WebSecurityConfig.java
+D:\Projects\tiktak\src\main\java\fi\taktik\app\login\AccountCredentialsRepository.java
 D:\Projects\tiktak\src\main\java\fi\taktik\app\ItemRepository.java
-D:\Projects\tiktak\src\main\java\fi\taktik\app\WebSecurityConfig.java
+D:\Projects\tiktak\src\main\java\fi\taktik\app\login\AccountCredentials.java
